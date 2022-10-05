@@ -12,7 +12,11 @@ const multiply = function(x, y) {
 }
 
 const divide = function(x, y) {
-    return x / y;
+    if (y == 0) {
+        return "Cannot divide by 0"
+    } else {
+        return x / y;
+    }
 }
 
 // operate function
