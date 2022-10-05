@@ -1,25 +1,25 @@
 // Operators
-const add = function(x, y) {
-    return x + y;
+const add = function(num1, num2) {
+    return num1 + num2;
 }
 
-const subtract = function(x, y) {
-    return x - y;
+const subtract = function(num1, num2) {
+    return num1 - num2;
 }
 
-const multiply = function(x, y) {
-    return x * y;
+const multiply = function(num1, num2) {
+    return num1 * num2;
 }
 
-const divide = function(x, y) {
-    if (y == 0) {
+const divide = function(num1, num2) {
+    if (num2 == 0) {
         return "Cannot divide by 0"
     } else {
-        return x / y;
+        return num1 / num2;
     }
 }
 
 // operate function
-const operate = function (a, b, operator) {
-    return operator(a, b);
+const operate = function (num1, num2, operator) {
+    return operator(num1, num2);
 }
