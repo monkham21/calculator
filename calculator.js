@@ -43,6 +43,8 @@ const display = function(value, state) {
 
 }
 
+
+// Operation function
 const click = function() {
     let state;
     let num1 = "none", num2 = "none", operator = "none";
@@ -90,6 +92,7 @@ const click = function() {
     })
 }
 
+// Calculator
 addEventListener('DOMContentLoaded', (event) => {
     click();
 });
